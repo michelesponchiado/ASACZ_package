@@ -25,7 +25,7 @@ typedef struct _type_OLinuxino_ASACZ_fw_update_header
 	uint8_t	patch[64];					//!< the version patch
 	uint8_t	notes[64];					//!< the version notes
 	uint8_t	string[256];				//!< the version string
-	uint32_t firmware_body_size;		// the expected number of bytes in the firmware body, most of the times it should be 131072, i.e. 128 kBytes
+	uint32_t firmware_body_size;		// the expected number of bytes in the firmware body
 	uint32_t firmware_body_CRC32_CC2650;// the CRC32 of the firmware body calculated as CC2650 does it, please see the calcCrcLikeChip routine
 	uint32_t header_CRC32_CC2650;		// the CRC32 of the header (this field excluded), calculated as CC2650 does it, please see the calcCrcLikeChip routine
 
