@@ -117,8 +117,11 @@ const char *get_enum_asacz_package_retcode_string(enum_asacz_package_retcode e)
 	return p_return_string;
 }
 
+#define ASACZ_PACKAGER_VERSION "0.1"
+
 int main(int argc, char *argv[])
 {
+	printf ("ASACZ packager version %s %s %s\n", ASACZ_PACKAGER_VERSION, __DATE__, __TIME__);
 	init_ASACZ_firmware_version();
 
 	char *filename_in = "/home/michele/workspace/OLinuxino_RF_data_send_receive/OLinuxino/ASACZ";
