@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
 	printf ("ASACZ packager version %s %s %s\n", ASACZ_PACKAGER_VERSION, __DATE__, __TIME__);
 	init_ASACZ_firmware_version();
 
-	char *filename_in = "/home/michele/workspace/OLinuxino_RF_data_send_receive/OLinuxino/ASACZ";
+	char *filename_in = "/home/michele/workspace/OLinuxino_RF_data_send_receive/RELEASE OLinuxino/ASACZ";
 	FILE *fin = NULL;
 	FILE *fout = NULL;
 
